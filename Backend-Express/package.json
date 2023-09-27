@@ -1,0 +1,39 @@
+{
+  "name": "flashcardapp",
+  "version": "1.0.0",
+  "description": "Backend for FlashCardApp, specifically API to access database of users and card decks.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaryan1203/FlashCardApp.git"
+  },
+  "keywords": [
+    "flashcards",
+    "learning",
+    "education",
+    "study tool"
+  ],
+  "author": "Aaryan Jain & Zindagi Kamra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaryan1203/FlashCardApp/issues"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "openai": "^3.3.0"
+  },
+  "homepage": "https://github.com/Aaryan1203/FlashCardApp#readme"
+}
