@@ -52,7 +52,7 @@ exports.handler = async (event, context) => {
                         }
                     };
 
-                    axios.delete(`https://ybsrts34a3.execute-api.us-east-2.amazonaws.com/dev/cards/`, config)
+                    axios.delete(process.env.cardsURL.toString(), config)
                         .then()
                         .catch((error) => {
                             console.error(`Error in deleting card ${cardId} from set: ${error}`);
