@@ -185,7 +185,7 @@ exports.handler = async (event, context) => {
                         card
                     }
                 };
-                axios.post(`https://ybsrts34a3.execute-api.us-east-2.amazonaws.com/dev/cards/`, config)
+                axios.post(process.env.cardsURL.toString(), config)
             });
 
             const cardResponds = await Promise.all(cardPromises);
